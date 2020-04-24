@@ -2,11 +2,11 @@
 基于Python3,用于拼接图片与shell，两种模式，一种是指定文件类型，另一种是指定图片文件
 ## 安装说明
 ```cmd
-pips install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## 使用说明
-**-t**：指定文件类型，jpg,png,bmp任选一种
+**-t**：指定文件类型，jpg,png,bmp,gif任选一种
 
 **-i**：指定图片文件路径
 
@@ -21,7 +21,7 @@ pips install -r requirements.txt
 可参考别人收集的[webshell](https://github.com/tennc/webshell)
 ### 指定文件类型
 ```cmd
-python3 picshell.py -t [jpg,png,bmp] -s <webshell> -o <new webshell>
+python3 picshell.py -t [jpg,png,bmp,gif] -s <webshell> -o <new webshell>
 ```
 ### 指定图片文件
 ```cmd
